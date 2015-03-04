@@ -1,0 +1,29 @@
+{
+    "gerrit_url": "URL",
+    "gerrit_branch": "branch",
+    "upstream_url": "URL",
+    "upstream_branch": "branch",
+    "projects": [
+        {
+            "sahara": {
+                "upstream_deps": {
+                    "pbr": "0.1"
+                },
+                "mos_deps": {
+                    "pbr": "0.1"
+                }
+            }
+        },
+        {
+            "heat": {
+                "upstream_deps": {
+                    "lock": "0.4"
+                },
+                "mos_deps": {
+                    "lock": "0.3"
+                }
+            }
+        }
+    ],
+    "output_format": "pdf"
+}
